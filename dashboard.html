@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <button onclick="profilePage()">Profile</button>
+        <script>
+            function profilePage(){
+                let val=sessionStorage.getItem("username");
+                console.log(val);
+                window.location.href="profile.html";
+            }
+        </script>
+        </button>
+    </body>
+</html>
